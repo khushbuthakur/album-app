@@ -10,10 +10,10 @@ Two important styles learned in this app are:
  
         // full width image
           // imageStyle: {
-    height: 300,
-    flex: 1,
-    width: null
-  } 
+             height: 300,
+             flex: 1,
+             width: null
+           } 
 
 
 2) Full width button style:
@@ -23,13 +23,13 @@ Two important styles learned in this app are:
 </TouchableOpacity>
     
          // full width button
-    // buttonStyle: {
-    flex: 1, // expand and fill the content as much as it can
-    alignSelf: "stretch", // position itself using flexbox rules, stretch to fill limits of container
-    backgroundColor: "#fff",
-    borderRadius: 5,
-    borderWidth: 1,
-    borderColor: "#007aff",
-    marginLeft: 5,
-    marginRight: 5
-  }
+          // buttonStyle: {
+          flex: 1, // expand and fill the content as much as it can
+          alignSelf: "stretch", // position itself using flexbox rules, stretch to fill limits of container
+          backgroundColor: "#fff",
+          borderRadius: 5,
+          borderWidth: 1,
+          borderColor: "#007aff",
+          marginLeft: 5,
+          marginRight: 5
+        }
