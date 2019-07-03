@@ -8,8 +8,8 @@ Two important styles learned in this app are:
 1) Full width Image style : 
  <Image source={{ uri: image }} style={imageStyle} />
  
-   full width image
-    // imageStyle: {
+        // full width image
+          // imageStyle: {
     height: 300,
     flex: 1,
     width: null
@@ -22,7 +22,7 @@ Two important styles learned in this app are:
       <Text style={textStyle}>{children}</Text>
 </TouchableOpacity>
     
-  full width button
+         // full width button
     // buttonStyle: {
     flex: 1, // expand and fill the content as much as it can
     alignSelf: "stretch", // position itself using flexbox rules, stretch to fill limits of container
